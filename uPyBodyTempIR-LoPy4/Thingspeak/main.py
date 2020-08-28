@@ -28,7 +28,7 @@ for x in range(20):
     sleep_ms(1000)
 
 if not sta.isconnected():
-    print("\Não foi possível se conectar em {}".format(SSID))
+    print("\nNão foi possível se conectar em {}".format(SSID))
 else:
     ts = thingspeak.Thingspeak()
     ts.userApiKey = "3SOPC2X6DEHXW2JC"

@@ -5,8 +5,8 @@ import MLX90615
 import statistics
 from machine import deepsleep
 
-SSID = 'Robadel'
-PSW = '09092004'
+SSID = ''
+PSW = ''
 
 MQTTUSER = 'a8a980d0-7a73-11ea-883c-638d8ce4c23d'
 MQTTPWD = 'cac451ee5e79be2a45ea82fc59ec51f334bb48ff'

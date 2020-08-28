@@ -4,6 +4,8 @@
 
 #### Goal : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT (when available).
 
+This project belongs to the initiative https://github.com/rcolistete/CompFis_UFES_covid19
+
 The [I2C sensor MLX90615](https://www.melexis.com/en/product/mlx90615/) is a infrared thermometer for non-contact temperature measurements, with accuracy of +/- 0.2 C for human temperatures, so fever can be detected. 
 
 There is no MLX90615 MicroPython driver yet, but there is a [MLX90614 MicroPython driver](https://github.com/mcauser/micropython-mlx90614), so it will be tested with MLX90615 to verify compatibility, if needed the driver will adapted. There is a also [MLX90614 CircuiPython driver](https://circuitpython.readthedocs.io/projects/mlx90614/en/latest).
@@ -21,3 +23,19 @@ Planned versions :
 - uPyBodyTempIR-LoPy4 with [Pycom LoPy4](https://pycom.io/product/lopy4/), which is a ESP32 (WiFi + Bluetooth) + 4MB PSRAM memory, LoRa & Sigfox. It will have IoT via LoRaWan (-> LoRaWan gateway -> TTN LoRaWan server) + IoT Cloud Cloud, useful for regions without WiFi coverage but with LoRaWan gateway coverage.
 
 This project is being developed by [UFES (Federal University of Espírito Santo - Brazil)](http://ufes.br/) researchers and students, including ones from [LabNerds](https://nerds.ufes.br/en/).
+
+### Images
+
+In the image below you can see the data that was sent to the Ubidots IoT platform.
+
+
+![Ubidots](imagem/Screenshot_Ubidots.png)
+
+
+In the image below you can see the data that was sent to the ThingSpeak IoT platform.
+
+![ThingSpeak](imagem/Screenshot_ThingSpeak.png)
+
+In the image below you can see the data that was sent to the Cayenne-MyDevices IoT platform.
+
+![Cayenne-MyDevices](imagem/Screenshot_Cayenne.png)
