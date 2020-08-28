@@ -1,0 +1,3 @@
+## uPyBodyTempIR com Cayenne - mydevices
+
+Nesta versão os dados são enviados para o IoT Cloud [Cayenne - mydevices](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwiH3vDy297oAhWNILkGHQkxDuEQjBAwAnoECAYQDw&url=https%3A%2F%2Fmydevices.com%2Fcayenne%2Fsignin%2F&usg=AOvVaw1Ex6_mvjOy76zQ4VpIRw5k). É possível visualizar os gráficos no [neste Dashboard](https://cayenne.mydevices.com/shared/5e90d924ae410d4d50333140/project/f6f2df76-a870-43bc-aed8-ebd1dda68a1d).
